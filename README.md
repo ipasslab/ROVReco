@@ -68,7 +68,10 @@ Please replace {kg_date} with the `YYYYMMDD` date and run the command in the cor
 
 The download links for Neo4j-related software can be found at https://neo4j.com/deployment-center/#enterprise.
 
-We have uploaded the file `20240701.tar.bz2` in the `preprocess_dataset/database` folder. This file contains the original data for modeling the Internet Routing System on the day of `20240701`, which can be used as an example for building the knowledge graph. As the original data is quite large (approximately 18GB), please confirm the available space before using it.
+### Try the Demo Model
+
+We have uploaded several models created using the prefix ROV recommendation experience training. The training data for the prefix was obtained from the ROVReco simulation, and the results can be found in the `preprocess_dataset/analyse_prefix` folder. You can try the recommendation process by running the `gnn_recommend_demo.ipynb` Jupyter script.
+
 
 ## Paper
 The paper titled "ROVReco: An ROV Deployment Recommendation Approach with GNN Based on Routing Betweenness" regarding the work of ROVReco has been available at SSRN: https://ssrn.com/abstract=5170823 or http://dx.doi.org/10.2139/ssrn.5170823
