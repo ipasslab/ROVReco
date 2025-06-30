@@ -70,7 +70,11 @@ The download links for Neo4j-related software can be found at https://neo4j.com/
 
 ### Try the Demo Model
 
-We have uploaded several models created using the prefix ROV recommendation experience training. The training data for the prefix was obtained from the ROVReco simulation, and the results can be found in the `preprocess_dataset/analyse_prefix` folder. You can try the recommendation process by running the `gnn_recommend_demo.ipynb` Jupyter script.
+We have uploaded several models created using the prefix ROV recommendation experience training. The training data for the prefix was obtained from the ROVReco simulation, and the results can be found in the `preprocess_dataset/analyse_prefix` folder. 
+
+We have simultaneously uploaded the AS embeddings obtained from the knowledge graph, which are put in the `gds_data` folder. Please decompress it before running ROVReco. There is a file named `global_settings.py` in the code file, where you can find information regarding the code path and data path issues.
+
+You can try the recommendation process by running the `gnn_recommend_demo.ipynb` Jupyter script.
 
 
 ## Paper
